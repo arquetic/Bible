@@ -7,6 +7,7 @@ Este proyecto tiene como objetivo proporcionar una fuente de datos valiosa para 
 El repositorio incluye los siguientes archivos en formato JSON:
 
 - `Vatican-Bible.spa.json`: La Biblia en idioma Español.
+- `Vatican-Bible-toTrain.spa.json`: La Biblia en idioma Español, listo para entrenamiento.
 - `Vatican-Bible.eng.json`: La Biblia en idioma Inglés (en desarrollo).
 - `Vatican-Bible.lat.json`: La Biblia en idioma Latín (en desarrollo).
 
