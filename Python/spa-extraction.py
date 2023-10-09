@@ -42,8 +42,6 @@ def extract_and_struct(soup):
         for li_2 in second_ul.find_all('li', recursive=False):
             font_tag = li_2.find('font', size='3')
             link = font_tag.find('a', href=lambda href: href and href.startswith('__P'))
-            book_url = ''
-            book_title = ''
             if link:
                 book_url = link['href']
                 book_title = link.get_text()
